@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  line-height: 1.5rem;
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+  background-color: #dcd4cd;
+}
+
+.link-card {
+  display: block;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Dosis', sans-serif;
+}
+
+li {
+  width: 50%;
+  display: block;
+}
