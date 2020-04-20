@@ -11,36 +11,46 @@ body {
 }
 
 .link-card {
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   display: inline-block;
   text-decoration: none;
   background-color: #dcd4cd;
   border: 3px solid #9a816d;
   border-radius: 8px;
   color: #785439;
+  padding-bottom: 1.5rem;
 }
 
 .link-card:hover {
   background-color: #cabdb2;
 }
 
-h2 {
-  font-family: 'Dosis', sans-serif;
+.link-card h2 {
+  font-family: "Dosis", sans-serif;
   color: #512200;
   margin: 1rem;
   font-size: 1.5rem;
 }
 
-p {
+.link-card p {
   margin: 1rem;
   font-size: 1.125rem;
   padding-bottom: 1rem;
   border-bottom: 2px solid #9a816d;
 }
 
-li {
+.link-card li {
   margin: 1rem;
   width: 50%;
   display: block;
   font-size: 1rem;
+}
+
+span {
+  color: #f0eee8;
+  padding: .75em;
+  border-radius: 8px;
+  background-color: #785439;
+  margin: 1rem;
+  font-family: "Dosis", sans-serif;
 }
